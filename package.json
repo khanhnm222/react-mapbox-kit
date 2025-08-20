@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/khanhnm222/react-mapbox-kit#readme",
   "dependencies": {
+    "@turf/turf": "^7.2.0",
     "mapbox-gl": "^3.14.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

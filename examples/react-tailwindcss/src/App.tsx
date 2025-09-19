@@ -17,7 +17,7 @@ const samplePolygon: GeoJSON.FeatureCollection = {
 function App() {
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
-      <MapProvider accessToken="pk.eyJ1Ijoia2FpaHVlYm5lciIsImEiOiJjbDA4cHl4ajIwNXU3M2p0YW5qNHQ4aXRoIn0.6Rk947DgABOTwfbdAEaVVQ">
+      <MapProvider accessToken="MAPBOX_TOKEN">
         <PolygonLayer id="test" data={samplePolygon} />
       </MapProvider>
     </div>

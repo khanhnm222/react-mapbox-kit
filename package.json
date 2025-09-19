@@ -1,29 +1,35 @@
 {
-  "name": "react-mapbox-kit",
+  "name": "@react-mapbox-kit/core",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "React components and hooks for Mapbox GL",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/khanhnm222/react-mapbox-kit.git"
   },
-  "keywords": [],
+  "keywords": ["mapbox", "react", "gis"],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/khanhnm222/react-mapbox-kit/issues"
   },
   "homepage": "https://github.com/khanhnm222/react-mapbox-kit#readme",
   "dependencies": {
     "@turf/turf": "^7.2.0",
-    "mapbox-gl": "^3.14.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "turf": "^3.0.14"
+    "mapbox-gl": "^3.14.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@types/mapbox-gl": "^3.4.1",

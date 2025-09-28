@@ -4,15 +4,17 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite ",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-mapbox-kit/core": "file:react-mapbox-kit-core-1.0.0.tgz",
     "@tailwindcss/vite": "^4.1.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-mapbox-kit": "file:react-mapbox-kit-1.0.0.tgz",
     "tailwindcss": "^4.1.12"
   },
   "devDependencies": {

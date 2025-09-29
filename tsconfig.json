@@ -7,10 +7,10 @@
     "declarationDir": "dist",
     "esModuleInterop": true,
     "jsx": "react-jsx",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "skipLibCheck": true,
     "strict": true,
-    "outDir": "dist"
+    "outDir": "dist",
   },
   "include": ["src"]
 }

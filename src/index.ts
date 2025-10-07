@@ -9,6 +9,8 @@ export * as SpatialUtils from "./utils/spatial";
 export { useDraw } from './hooks/useDraw';
 export { useLegend } from './hooks/useLegend';
 export { useMarker } from './hooks/useMarker';
+export { useDrawControls } from './hooks/useDrawControls';
+export { useDrawTool } from './hooks/useDrawTool';
 
 // Type
 export { DrawMode } from '../types/index';
